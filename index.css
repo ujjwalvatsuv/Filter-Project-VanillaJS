@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.filters{
+    background-color:white;
+    box-shadow:0 0 10px gray;
+    height:70px;
+    max-width:100%;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    row-gap:10px;
+ }
+ 
+ .products_table{
+    max-width:100%;
+    padding:30px;
+ }
+ 
+ table{
+    width:100%;
+ }
+ 
+ table,th,td{
+    border:1px solid white;
+    border-collapse:collapse;
+ }
+ 
+ th,td{
+    padding:20px;
+    text-align: center;
+ }
+ 
+ th{
+    font-size:18px;
+    background-color:yellowgreen;
+    color:#fff;
+    font-family:segoe ui;
+ }
+
+ tbody > tr:nth-child(even){
+    background-color: rgb(228, 227, 227);
+ }
+ 
+ .filter_button{
+    padding:10px 20px; 
+    border-radius:10px;
+    cursor:pointer;
+ }
+
+ input{
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 20px;
+ }
+ 
+ 
+ 

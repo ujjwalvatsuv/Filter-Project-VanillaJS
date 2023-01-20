@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+    <title>Filter Project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="filters">
+        <div class="inps">
+           <input type="text"  onkeyup="readValue(event)" id="name" placeholder="Enter Name">
+        </div>
+        <button onclick="filter()" class="filter_button">Filter</button>
+     </div>
+     
+     <div class="products_table">
+        <table>
+           <thead> 
+              <tr>
+                 <th>#</th>
+                 <th>Name</th>
+                 <th>Category</th>
+                 <th>Price</th>
+                 <th>Seller</th>
+                 <th>Company</th>
+              </tr>
+           </thead>
+
+           <tbody id="data">
+
+           </tbody>
+           
+        </table>
+     </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
